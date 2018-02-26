@@ -1,9 +1,13 @@
 ## *Elements of Programming Interviews*
 
+Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_detailpages00?ie=UTF8&psc=1)!
+
 > If you genuinely solve all the questions in the book, I'd say you're pretty much set for a software engineering job. This is a bug in today's software engineering recruitment, it doesn't matter if you know good practices, design patterns, maintainability, readability, etc... Just pick a mainstream language and memorize/solve as many questions as possible :) 
 <br> &mdash; [Ayberk](https://www.goodreads.com/review/show/1139511605)
 
 ## Scoreboard
+
+*Elements of Programming Interviews* comes with a nice study guide. Once I've completed (or at least understood the solutions) of these 116 problems, I'm done!
 
 <div style="overflow-x:auto">
 <table style="width:100%">
