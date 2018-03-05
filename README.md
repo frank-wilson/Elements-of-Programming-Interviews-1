@@ -9,6 +9,8 @@ Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_de
 
 *Elements of Programming Interviews* comes with a convenient study guide. Once I've completed (or at least understood and written out the solutions to) these 116 problems, I'm done!
 
+**Problems Left: 115**
+
 <center>
 <div style="overflow-x:auto">
 <table style="width:100%">
@@ -23,7 +25,7 @@ Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_de
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: center">4.1</td>
+      <td style="text-align: center"><s>4.1</s></td>
       <td style="text-align: center">4.7</td>
       <td style="text-align: center">4.8</td>
       <td style="text-align: center">4.3, 4.11</td>
@@ -145,3 +147,25 @@ Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_de
 </table>
 </div>
 </center>
+
+## More Details
+
+* 4-01 (3/5/2018)
+
+  `x & (x - 1)` yields x with its lowest set (1) bit turned to 0.
+
+  So if you want to count the number of 1 bits in a number, just keep ANDing itself with itself - 1 in a loop and count how many iterations it takes to hit 0!
+
+  Variants --
+
+  * Right propagate the rightmost set bit in *x*, like (01010000) to (01011111).
+
+    No idea how to do this.
+
+  * Compute x mod a power of two. Return 13 for 77 mod 64.
+
+    No idea how to do this.
+
+  * Test if x is a power of 2, i.e. true for x = 1,2,4,8, false otherwise.
+
+    Simple! Just compute `(x & (x - 1)) == 0`. If x is a power of 2, then there's only one set bit and negating it will give us zero.
