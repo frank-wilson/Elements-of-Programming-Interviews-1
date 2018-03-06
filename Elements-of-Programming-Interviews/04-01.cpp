@@ -59,8 +59,24 @@ unsigned long right_propagate_rightmost_bit(unsigned long x) {
 }
 
 // Tests if input is power of 2 in O(1).
-bool test_power_2_complexity_1(unsigned long x) {
+bool is_power_2_complexity_1(unsigned long x) {
 	return (x & (x - 1)) == 0;
+}
+
+// Compute x mod a power of two. Return 13 for 77 mod 64.
+signed long mod_power_2(unsigned long x, unsigned long power=64) {
+	if (!is_power_2_complexity_1(power)) {
+		return -1;
+	}
+	else if (x < power) {
+		return x;
+	}
+	else if (is_power_2_complexity_1(x)) {
+		return 0;
+	}
+	else {
+		return x & (power - 1);
+	}
 }
 
 std::string eopi_0401(unsigned long const x) {

@@ -162,12 +162,16 @@ Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_de
 
     Solved. Code in `04-01.cpp`. Not super-elegant, but works in O(n).
 
-  * Compute x mod a power of two. Return 13 for 77 mod 64.
-
-    No idea how to do this.
-
   * Test if x is a power of 2, i.e. true for x = 1,2,4,8, false otherwise.
 
     Simple! Just compute `(x & (x - 1)) == 0`. If x is a power of 2, then negating only set bit gives us zero.
+
+    Code in `04-01`.cpp.
+
+  * Compute x mod a power of two. Return 13 for 77 mod 64.
+
+    Simple! Just compute `(x & (power - 1))`. Unless x is a power of 2, then 0.
+
+    This makes no intuitive sense to me, but playing with the bits on paper makes the solution appear like magic. I love it.
 
     Code in `04-01`.cpp.
