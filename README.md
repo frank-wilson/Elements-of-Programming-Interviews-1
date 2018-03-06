@@ -154,9 +154,9 @@ Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_de
 
 	x<sup>y</sup> can be expressed through a simple recurrence relation.
 
-	If the last bit of y is 0, x<sup>y</sup> = (x<sup>y\>\>1)<sup>2</sup>
-	If the last bit of y is 1, x<sup>y</sup> = (x<sup>y\>\>1)<sup>2</sup> \* x
-	If y is 1, x<sup>y</sup> = x
+	* If the last bit of y is 0, x<sup>y</sup> = (x<sup>y\>\>1)<sup>2</sup>
+	* If the last bit of y is 1, x<sup>y</sup> = (x<sup>y\>\>1)<sup>2</sup> \* x
+	* If y is 1, x<sup>y</sup> = x
 
 	Math is beautiful!
 
