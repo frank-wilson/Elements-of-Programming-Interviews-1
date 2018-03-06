@@ -48,28 +48,27 @@ short parity_complexity_log_n(unsigned long x) {
 
 // Right propagate the rightmost set bit in x, like (01010000) to (01011111).
 unsigned long right_propagate_rightmost_bit(unsigned long x) {
-	auto right_zeroes = 0;
+	short num_right_zeroes = 0;
 	while ((x & 1) == 0) {
-		right_zeroes += 1;
+		num_right_zeroes += 1;
 		x >>= 1;
 	}
-	x <<= right_zeroes;
-	x |= (static_cast<long>(pow(2, right_zeroes) - 1));
+	x <<= num_right_zeroes;
+	x |= (static_cast<long>(pow(2, num_right_zeroes) - 1));
 	return x;
 }
 
 // Tests if input is power of 2 in O(1).
-bool is_power_2_complexity_1(unsigned long x) {
+bool is_power_of_two_complexity_1(unsigned long x) {
 	return (x & (x - 1)) == 0;
 }
 
 // Compute x mod a power of two. Return 13 for 77 mod 64.
-signed long mod_power_2(unsigned long x, unsigned long power=64) {
-	if (!is_power_2_complexity_1(power)) { return -1;  }
-	if (x < power) { return x; }
-	if (x == power) { return 0; }
-
-	return x & (power - 1);
+signed long mod_power_2_complexity_1(unsigned long x, unsigned long power_of_two=64) {
+	if (!is_power_of_two_complexity_1(power_of_two)) { return -1;  }
+	if (x < power_of_two) { return x; }
+	if (x == power_of_two) { return 0; }
+	return x & (power_of_two - 1);
 }
 
 std::string eopi_0401(unsigned long const x) {

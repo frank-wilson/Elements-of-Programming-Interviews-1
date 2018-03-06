@@ -26,7 +26,7 @@ Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_de
   <tbody>
     <tr>
       <td style="text-align: center"><s>4.1</s></td>
-      <td style="text-align: center">4.7</td>
+      <td style="text-align: center"><s>4.7</s></td>
       <td style="text-align: center">4.8</td>
       <td style="text-align: center">4.3, 4.11</td>
       <td style="text-align: center">4.9</td>
@@ -150,6 +150,16 @@ Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_de
 
 ## Concept Journal
 
+* 4-07 (3/6/2018)
+
+	x<sup>y</sup> can be expressed through a simple recurrence relation.
+
+	If the last bit of y is 0, x<sup>y</sup> = (x<sup>y\>\>1)<sup>2</sup>
+	If the last bit of y is 1, x<sup>y</sup> = (x<sup>y\>\>1)<sup>2</sup> \* x
+	If y is 1, x<sup>y</sup> = x
+
+	Math is beautiful!
+
 * 4-01 (3/5/2018)
 
   `x & (x - 1)` yields x with its lowest set (1) bit turned to 0.
@@ -166,7 +176,7 @@ Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_de
 
     Simple! Just compute `(x & (x - 1)) == 0`. If x is a power of 2, then negating only set bit gives us zero.
 
-    Code in `04-01`.cpp.
+    Code in `04-01.cpp`.
 
   * Compute x mod a power of two. Return 13 for 77 mod 64.
 
@@ -174,4 +184,4 @@ Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_de
 
     This makes no intuitive sense to me, but playing with bits on paper makes solution appear like magic. I love it.
 
-    Code in `04-01`.cpp.
+    Code in `04-01.cpp`.
