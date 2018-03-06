@@ -160,7 +160,7 @@ Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_de
 
   * Right propagate the rightmost set bit in *x*, like (01010000) to (01011111).
 
-    No idea how to do this.
+    Solved. Code in `04-01.cpp`. Not super-elegant, but works in O(n).
 
   * Compute x mod a power of two. Return 13 for 77 mod 64.
 
@@ -169,3 +169,5 @@ Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_de
   * Test if x is a power of 2, i.e. true for x = 1,2,4,8, false otherwise.
 
     Simple! Just compute `(x & (x - 1)) == 0`. If x is a power of 2, then negating only set bit gives us zero.
+
+    Code in `04-01`.cpp.

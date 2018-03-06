@@ -46,6 +46,18 @@ short parity_complexity_log_n(unsigned long x) {
 	return x & 1;
 }
 
+// Right propagate the rightmost set bit in x, like (01010000) to (01011111).
+unsigned long right_propagate_rightmost_bit(unsigned long x) {
+	auto right_zeroes = 0;
+	while ((x & 1) == 0) {
+		right_zeroes += 1;
+		x >>= 1;
+	}
+	x <<= right_zeroes;
+	x |= (static_cast<long>(pow(2, right_zeroes) - 1));
+	return x;
+}
+
 // Tests if input is power of 2 in O(1).
 bool test_power_2_complexity_1(unsigned long x) {
 	return (x & (x - 1)) == 0;
