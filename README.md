@@ -170,8 +170,8 @@ Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_de
 
   * Compute x mod a power of two. Return 13 for 77 mod 64.
 
-    Simple! Just compute `(x & (power - 1))`. Unless x is a power of 2, then 0.
+    Simple! Just compute `(x & (power - 1))`. Unless x is equal to power, then 0.
 
-    This makes no intuitive sense to me, but playing with the bits on paper makes the solution appear like magic. I love it.
+    This makes no intuitive sense to me, but playing with bits on paper makes solution appear like magic. I love it.
 
     Code in `04-01`.cpp.
