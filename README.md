@@ -9,7 +9,7 @@ Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_de
 
 *Elements of Programming Interviews* comes with a convenient study guide. Once I've completed (or at least understood and written out the solutions to) these 116 problems, I'm done!
 
-**Problems Left: 114**
+**Problems Left: 113**
 
 <center>
 <div style="overflow-x:auto">
@@ -27,7 +27,7 @@ Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_de
     <tr>
       <td style="text-align: center"><s>4.1</s></td>
       <td style="text-align: center"><s>4.7</s></td>
-      <td style="text-align: center">4.8</td>
+      <td style="text-align: center"><s>4.8</s></td>
       <td style="text-align: center">4.3, 4.11</td>
       <td style="text-align: center">4.9</td>
     </tr>
@@ -149,6 +149,10 @@ Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_de
 </center>
 
 ## Concept Journal
+
+* 4-08 (3/7/2018)
+
+  Bit shifting on the decimal level is a simple case of multiplying or dividing ints by 10.
 
 * 4-07 (3/6/2018)
 
