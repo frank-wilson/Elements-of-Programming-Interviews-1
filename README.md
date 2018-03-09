@@ -9,7 +9,7 @@ Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_de
 
 *Elements of Programming Interviews* comes with a convenient study guide. Once I've completed (or at least understood and written out the solutions to) these 116 problems, I'm done!
 
-**Problems Left: 113**
+**Problems Left: 112**
 
 <center>
 <div style="overflow-x:auto">
@@ -28,7 +28,7 @@ Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_de
       <td style="text-align: center"><s>4.1</s></td>
       <td style="text-align: center"><s>4.7</s></td>
       <td style="text-align: center"><s>4.8</s></td>
-      <td style="text-align: center">4.3, 4.11</td>
+      <td style="text-align: center"><s>4.3</s>, 4.11</td>
       <td style="text-align: center">4.9</td>
     </tr>
     <tr>
@@ -148,7 +148,11 @@ Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_de
 </div>
 </center>
 
-## Concept Journal
+## Journal
+
+* 4-03 (3/8/2018)
+
+  Solving 4-03 involved solving 4-02. Multi-tasking!
 
 * 4-08 (3/7/2018)
 

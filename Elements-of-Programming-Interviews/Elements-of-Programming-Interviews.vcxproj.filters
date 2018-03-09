@@ -27,6 +27,9 @@
     <ClCompile Include="04-08.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="04-03.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Questions.hpp">

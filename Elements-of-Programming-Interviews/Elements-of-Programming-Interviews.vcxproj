@@ -148,6 +148,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="04-01.cpp" />
+    <ClCompile Include="04-03.cpp" />
     <ClCompile Include="04-07.cpp" />
     <ClCompile Include="04-08.cpp" />
     <ClCompile Include="Elements-of-Programming-Interviews.cpp" />
