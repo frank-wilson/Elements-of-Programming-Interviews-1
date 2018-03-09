@@ -7,7 +7,7 @@ Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_de
 
 ## Scoreboard
 
-*Elements of Programming Interviews* comes with a convenient study guide. Once I've completed (or at least understood and written out the solutions to) these 116 problems, I'm done!
+*Elements of Programming Interviews* comes with a handy study guide. Once I've completed these 116 problems, I'm done!
 
 **Problems Left: 112**
 
