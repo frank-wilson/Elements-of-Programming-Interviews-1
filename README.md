@@ -150,15 +150,15 @@ Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_de
 
 ## Journal
 
-* 4-03 (3/8/2018)
+* [4-03](/Elements-of-Programming-Interviews/04-03.cpp) (3/8/2018)
 
   Solving 4-03 involved solving 4-02. Multi-tasking!
 
-* 4-08 (3/7/2018)
+* [4-08](/Elements-of-Programming-Interviews/04-03.cpp) (3/7/2018)
 
   Bit shifting on the decimal level is a simple case of multiplying or dividing ints by 10.
 
-* 4-07 (3/6/2018)
+* [4-07](/Elements-of-Programming-Interviews/04-03.cpp) (3/6/2018)
 
 	x<sup>y</sup> can be expressed through a simple recurrence relation.
 
@@ -168,7 +168,7 @@ Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_de
 
 	Math is beautiful!
 
-* 4-01 (3/5/2018)
+* [4-01](/Elements-of-Programming-Interviews/04-03.cpp) (3/5/2018)
 
   `x & (x - 1)` yields x with its lowest set (1) bit turned to 0.
 
@@ -178,18 +178,14 @@ Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_de
 
   * Right propagate the rightmost set bit in *x*, like (01010000) to (01011111).
 
-    Solved. Code in `04-01.cpp`. Not super-elegant, but works in O(n).
+    Solved. Not super-elegant, but works in O(n).
 
   * Test if x is a power of 2, i.e. true for x = 1,2,4,8, false otherwise.
 
     Simple! Just compute `(x & (x - 1)) == 0`. If x is a power of 2, then negating only set bit gives us zero.
-
-    Code in `04-01.cpp`.
 
   * Compute x mod a power of two. Return 13 for 77 mod 64.
 
     Simple! Just compute `(x & (power - 1))`. Unless x is equal to power, then 0.
 
     This makes no intuitive sense to me, but playing with bits on paper makes solution appear like magic. I love it.
-
-    Code in `04-01.cpp`.
