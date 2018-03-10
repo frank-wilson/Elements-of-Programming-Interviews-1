@@ -9,7 +9,7 @@ Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_de
 
 *Elements of Programming Interviews* comes with a handy study guide. Once I've completed these 116 problems, I'm done!
 
-**Problems Left: 112**
+**Problems Left: 111**
 
 <center>
 <div style="overflow-x:auto">
