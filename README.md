@@ -28,7 +28,7 @@ Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_de
       <td style="text-align: center"><s>4.1</s></td>
       <td style="text-align: center"><s>4.7</s></td>
       <td style="text-align: center"><s>4.8</s></td>
-      <td style="text-align: center"><s>4.3</s>, 4.11</td>
+      <td style="text-align: center"><s>4.3</s>, <s>4.11</s></td>
       <td style="text-align: center">4.9</td>
     </tr>
     <tr>
@@ -149,6 +149,10 @@ Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_de
 </center>
 
 ## Journal
+
+* [4-11](/Elements-of-Programming-Interviews/04-11.cpp) (3/9/2018)
+
+  Fun exercise in data modeling. Neglected variants. May return for them in future.
 
 * [4-03](/Elements-of-Programming-Interviews/04-03.cpp) (3/8/2018)
 
