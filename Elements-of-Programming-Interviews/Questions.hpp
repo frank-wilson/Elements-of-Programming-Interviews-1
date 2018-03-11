@@ -6,6 +6,7 @@
 #include <string>
 #include <sstream>
 
+std::string eopi_0409(int x);
 std::string eopi_0411(int x1, int y1, int h1, int w1,
 	                  int x2, int y2, int h2, int w2);
 std::string eopi_0403(unsigned long long x);

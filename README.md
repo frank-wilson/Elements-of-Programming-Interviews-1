@@ -9,7 +9,7 @@ Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_de
 
 *Elements of Programming Interviews* comes with a handy study guide. Once I've completed these 116 problems, I'm done!
 
-**Problems Left: 111**
+**Problems Left: 110**
 
 <center>
 <div style="overflow-x:auto">
@@ -29,7 +29,7 @@ Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_de
       <td style="text-align: center"><s>4.7</s></td>
       <td style="text-align: center"><s>4.8</s></td>
       <td style="text-align: center"><s>4.3</s>, <s>4.11</s></td>
-      <td style="text-align: center">4.9</td>
+      <td style="text-align: center"><s>4.9</s></td>
     </tr>
     <tr>
       <td style="text-align: center">5.1, 5.6</td>
@@ -149,6 +149,10 @@ Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_de
 </center>
 
 ## Journal
+
+* [4-09](/Elements-of-Programming-Interviews/04-09.cpp) (3/10/2018)
+
+	Solution to 4-08 with an equality test tacked on. Not sure why book solution is so convoluted.
 
 * [4-11](/Elements-of-Programming-Interviews/04-11.cpp) (3/9/2018)
 

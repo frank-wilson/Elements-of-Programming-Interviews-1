@@ -33,6 +33,9 @@
     <ClCompile Include="04-11.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="04-09.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Questions.hpp">
