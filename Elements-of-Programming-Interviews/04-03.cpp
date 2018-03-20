@@ -18,7 +18,8 @@ unsigned long long reverse_bits_complexity_n(unsigned long long x) {
 	return x;
 }
 
-std::string eopi_0403(unsigned long long x) {
+std::string eopi_0403() {
+	unsigned long long x = 512;
 	std::stringstream ss;
 	ss << x << " reversed is " << reverse_bits_complexity_n(x);
 	return ss.str();

@@ -23,7 +23,8 @@ int reverse_complexity_n(int x) {
 	return reversed;
 }
 
-std::string eopi_0408(int x) {
+std::string eopi_0408() {
+	int x = 123456789;
 	std::stringstream ss;
 	ss << x << " reversed is " << reverse_complexity_n(x);
 	return ss.str();

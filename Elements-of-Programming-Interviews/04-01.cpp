@@ -71,7 +71,8 @@ signed long mod_power_2_complexity_1(unsigned long x, unsigned long power_of_two
 	return x & (power_of_two - 1);
 }
 
-std::string eopi_0401(unsigned long const x) {
+std::string eopi_0401() {
+	unsigned long x = 5;
 	std::stringstream ss;
 	ss << x << " has a parity of " << parity_complexity_log_n(x);
 	return ss.str();

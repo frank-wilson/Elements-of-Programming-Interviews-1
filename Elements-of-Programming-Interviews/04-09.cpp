@@ -11,8 +11,10 @@ bool is_palindrome_complexity_n(int x) {
 	return (reversed == x);
 }
 
-std::string eopi_0409(int x) {
+std::string eopi_0409() {
+	int x = 505051, y = 1220221;
 	std::stringstream ss;
-	ss << x << " is " << (is_palindrome_complexity_n(x) ? "" : "not ") << "a palindrome.";
+	ss << x << " is " << (is_palindrome_complexity_n(x) ? "" : "not ") << "a palindrome." << std::endl;
+	ss << y << " is " << (is_palindrome_complexity_n(y) ? "" : "not ") << "a palindrome." << std::endl;
 	return ss.str();
 }

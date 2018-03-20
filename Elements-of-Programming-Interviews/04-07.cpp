@@ -33,7 +33,9 @@ double power_recursive(double x, int y) {
 	return -1;
 }
 
-std::string eopi_0407(double x, int y) {
+std::string eopi_0407() {
+	double x = 0.5;
+	int y = 3;
 	std::stringstream ss;
 	ss << x << " to the power of " << y << " is " << power_recursive(x, y);
 	return ss.str();

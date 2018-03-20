@@ -31,10 +31,9 @@ rectangle intersection_rectangles_complexity_1(rectangle& r1, rectangle& r2) {
 		   };
 }
 
-std::string eopi_0411(int x1, int y1, int h1, int w1,
-	                  int x2, int y2, int h2, int w2) {
-	rectangle r1 = { x1, y1, h1, w1 };
-	rectangle r2 = { x2, y2, h2, w2 };
+std::string eopi_0411() {
+	rectangle r1 = { 0, 0, 3, 5 };
+	rectangle r2 = { 3, 2, 4, 5 };
 	auto r3 = intersection_rectangles_complexity_1(r1, r2);
 	return to_coordinates(r3);
 }
