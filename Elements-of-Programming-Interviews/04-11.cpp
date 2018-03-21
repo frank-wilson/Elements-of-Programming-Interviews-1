@@ -6,11 +6,10 @@ struct rectangle {
 
 std::string to_coordinates(rectangle& r) {
 	std::stringstream ss;
-	ss << "Coordinates of intersecting rectangle are " <<
-		  "(" << r.x << ", " << r.y << "), " <<
+	ss << "(" << r.x << ", " << r.y << "), " <<
 		  "(" << r.x << ", " << r.y + r.height << "), " <<
 		  "(" << r.x + r.width << ", " << r.y + r.height << "), " <<
-		  "(" << r.x + r.width << ", " << r.y << "), "
+		  "(" << r.x + r.width << ", " << r.y << ")"
 	;
 	return ss.str();
 }
@@ -32,8 +31,11 @@ rectangle intersection_rectangles_complexity_1(rectangle& r1, rectangle& r2) {
 }
 
 std::string eopi_0411() {
-	rectangle r1 = { 0, 0, 3, 5 };
-	rectangle r2 = { 3, 2, 4, 5 };
+	rectangle r1 = { 0, 0, 3, 5 }, r2 = { 3, 2, 4, 5 };
 	auto r3 = intersection_rectangles_complexity_1(r1, r2);
-	return to_coordinates(r3);
+	std::stringstream ss;
+	ss << "rectangle " << to_coordinates(r1) << " and \n"
+		  "rectangle " << to_coordinates(r2) << " yield \n"
+		  "rectangle " << to_coordinates(r3);
+	return ss.str();
 }
