@@ -1,8 +1,12 @@
+ifeq ($(m),)
 commit:
-	@if "x%M%"=="x" (echo "Usage: set M='your message here.' make")
-	@test "x$(M)" != 'x'
-	git commit -a -m "%M%"
+	@echo Usage: make m="Your commit message."
+else
+commit:
+	git add --all .
+	git commit -a -m "$(m)"
 	git push
+endif
 
 pull:
 	git pull
