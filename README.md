@@ -32,7 +32,7 @@ Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_de
       <td style="text-align: center"><s>4.9</s></td>
     </tr>
     <tr>
-      <td style="text-align: center">5.1, 5.6</td>
+      <td style="text-align: center"><s>5.1</s>, 5.6</td>
       <td style="text-align: center">5.12, 5.18</td>
       <td style="text-align: center">5.2, 5.17</td>
       <td style="text-align: center">5.5, 5.9</td>
@@ -149,6 +149,10 @@ Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_de
 </center>
 
 ## Journal
+
+* [5-01](/Elements-of-Programming-Interviews/05-01.cpp) (3/24/2018)
+
+	Geez. Quite a break. But onwards ho! (Ignored variants. May return later.)
 
 * [4-09](/Elements-of-Programming-Interviews/04-09.cpp) (3/10/2018)
 

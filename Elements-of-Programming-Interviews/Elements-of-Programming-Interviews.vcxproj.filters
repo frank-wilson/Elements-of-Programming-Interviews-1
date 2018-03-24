@@ -36,9 +36,15 @@
     <ClCompile Include="04-09.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="05-01.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Questions.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnumPrinter.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

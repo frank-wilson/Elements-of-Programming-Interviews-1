@@ -5,7 +5,9 @@
 #include <iostream>
 #include <string>
 #include <sstream>
+#include <vector>
 
+std::string eopi_0501();
 std::string eopi_0409();
 std::string eopi_0411();
 std::string eopi_0403();
