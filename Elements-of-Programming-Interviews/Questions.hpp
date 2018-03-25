@@ -7,6 +7,7 @@
 #include <sstream>
 #include <vector>
 
+std::string eopi_0506();
 std::string eopi_0501();
 std::string eopi_0409();
 std::string eopi_0411();

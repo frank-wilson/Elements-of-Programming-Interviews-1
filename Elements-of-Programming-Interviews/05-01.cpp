@@ -58,7 +58,7 @@ std::string eopi_0501() {
 	int pivot_idx = 3;
 	DutchFlagPartition_complexity_n(pivot_idx, a);
 	std::stringstream ss;
-	for (auto i = a.begin(); i != a.end(); ++i) {
+	for (auto i = a.begin(); i != a.end(); i++) {
 		ss << ToString(*i) << " ";
 	}
 	return ss.str();

@@ -154,6 +154,7 @@
     <ClCompile Include="04-09.cpp" />
     <ClCompile Include="04-11.cpp" />
     <ClCompile Include="05-01.cpp" />
+    <ClCompile Include="05-06.cpp" />
     <ClCompile Include="Elements-of-Programming-Interviews.cpp" />
   </ItemGroup>
   <ItemGroup>
