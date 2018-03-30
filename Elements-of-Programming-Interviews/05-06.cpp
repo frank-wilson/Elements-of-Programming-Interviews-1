@@ -1,4 +1,5 @@
 #include "Questions.hpp"
+#include "VectorUtils.hpp"
 
 double BuyAndSellStockOnce_complexity_n(const std::vector<double>& prices) {
 	double min_price_so_far = std::numeric_limits<double>::max(), max_profit = 0;
@@ -30,25 +31,14 @@ std::string LongestEqualSubArray_complexity_n() {
 		last_seen = *i;
 	}
 	std::stringstream ss;
-	ss << "The length of the longest contiguous equal subarray of ";
-	ss << "<";
-	for (auto i = ints.begin(); i != ints.end() - 1; i++) {
-		ss << *i << ", ";
-	}
-	ss << ints.back();
-	ss << "> is " << longest_subarray_len;
+	ss << "The length of the longest contiguous equal subarray of " << ToString(ints);
+	ss << " is " << longest_subarray_len;
 	return ss.str();
 }
 
 std::string eopi_0506() {
 	std::vector<double> prices = { 310, 315, 275, 295, 260, 270, 290, 230, 255, 250 };
 	std::stringstream ss;
-	ss << "The max profit of ";
-	ss << "<";
-	for (auto i = prices.begin(); i != prices.end() - 1; i++) {
-		ss << *i << ", ";
-	}
-	ss << prices.back();
-	ss << "> is " << BuyAndSellStockOnce_complexity_n(prices);
+	ss << "The max profit of " << ToString(prices) << " is " << BuyAndSellStockOnce_complexity_n(prices);
 	return ss.str();
 }

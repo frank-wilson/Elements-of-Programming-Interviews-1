@@ -3,10 +3,12 @@
 #include <algorithm>
 #include <cmath>
 #include <iostream>
+#include <random>
 #include <string>
 #include <sstream>
 #include <vector>
 
+std::string eopi_0512();
 std::string eopi_0506();
 std::string eopi_0501();
 std::string eopi_0409();

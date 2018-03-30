@@ -9,7 +9,7 @@ Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_de
 
 *Elements of Programming Interviews* comes with a handy study guide. Once I've completed these 116 problems, I'm done!
 
-**Problems Left: 108**
+**Problems Left: 107**
 
 <center>
 <div style="overflow-x:auto">
@@ -33,7 +33,7 @@ Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_de
     </tr>
     <tr>
       <td style="text-align: center"><s>5.1</s>, <s>5.6</s></td>
-      <td style="text-align: center">5.12, 5.18</td>
+      <td style="text-align: center"><s>5.12</s>, 5.18</td>
       <td style="text-align: center">5.2, 5.17</td>
       <td style="text-align: center">5.5, 5.9</td>
       <td style="text-align: center">5.3, 5.10, 5.15</td>
@@ -149,6 +149,10 @@ Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_de
 </center>
 
 ## Journal
+
+* [5-12](/Elements-of-Programming-Interviews/05-12.cpp) (3/29/2018)
+
+  The interesting part of this problem is the math. May write up here later.
 
 * [5-06](/Elements-of-Programming-Interviews/05-06.cpp) (3/25/2018)
 

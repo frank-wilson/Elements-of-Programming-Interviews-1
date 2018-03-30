@@ -155,11 +155,13 @@
     <ClCompile Include="04-11.cpp" />
     <ClCompile Include="05-01.cpp" />
     <ClCompile Include="05-06.cpp" />
+    <ClCompile Include="05-12.cpp" />
     <ClCompile Include="Elements-of-Programming-Interviews.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EnumPrinter.hpp" />
     <ClInclude Include="Questions.hpp" />
+    <ClInclude Include="VectorUtils.hpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -1,17 +1,8 @@
 #include "Questions.hpp"
 #include "EnumPrinter.hpp"
+#include "VectorUtils.hpp"
 
 DEFINE_ENUM_WITH_STRING_CONVERSIONS(Color, (RED)(WHITE)(BLUE))
-
-template <typename T>
-void swap(std::vector<T>& a, int i, int j) {
-	if (i < 0 || j < 0 || i >= a.size() || j >= a.size()) {
-		return;
-	}
-	T tmp = a[i];
-	a[i] = a[j];
-	a[j] = tmp;
-}
 
 // Kind of a waste of time.
 void DutchFlagPartition_complexity_n_2(int pivot_idx, std::vector<Color>& a) {
