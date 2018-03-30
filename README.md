@@ -152,7 +152,7 @@ Buy the book [here](https://smile.amazon.com/gp/product/1479274836/ref=od_aui_de
 
 * [5-12](/Elements-of-Programming-Interviews/05-12.cpp) (3/29/2018)
 
-  The interesting part of this problem is the math. May write up here later.
+  Actually has applications to [World Borders Quiz](https://github.com/danielm00re/world-borders-quiz),
 
 * [5-06](/Elements-of-Programming-Interviews/05-06.cpp) (3/25/2018)
 
